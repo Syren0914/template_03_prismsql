@@ -41,7 +41,7 @@ const Slider = () => {
             <h1 className='text-5xl text-center uppercase p-4 md:p-10 md:text-6xl xl:text-7xl'>
                 {data[currentSlide].title}
             </h1>
-            <button className='bg-red-500 text-white py-4 px-8 rounded-3xl'>Order Now</button>
+            <button className='bg-red-500 text-white py-3 px-8 rounded-3xl md:pb-6 '>Order Now</button>
         </div>
         {/* TEXT CONTAINER*/}
         <div className='w-full flex-1 relative '>
